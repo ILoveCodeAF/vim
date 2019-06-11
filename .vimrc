@@ -4,6 +4,10 @@
 colo desert
 syntax on
 
+"indent
+filetype plugin indent on
+
+
 "space and tab
 "number of visual spaces per tab"
 set tabstop=4
@@ -11,8 +15,9 @@ set tabstop=4
 "number of spaces when editing
 set softtabstop=4
 
-"indent
-filetype plugin indent on
+"size of indent
+set shiftwidth=4
+
 
 "ui config
 
